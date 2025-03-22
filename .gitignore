@@ -3,3 +3,9 @@ __pycache__/
 *.pyc
 .env
 .DS_Store
+
+# Ignore Hugging Face model cache
+~/.cache/huggingface/
+**/pytorch_model.bin
+**/tokenizer_config.json
+**/config.json
